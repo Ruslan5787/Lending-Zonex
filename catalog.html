@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style/css/vendor/normalize.css">
+   <link rel="stylesheet" href="style/css/global.css">
+   <link rel="stylesheet" href="style/css/main.css">
+   <link rel="stylesheet" href="">
+   <title>Catalog</title>
+</head>
+
+<body>
+   <div class="site-container">
+
+      <div class="offer"><a href="#">Free Delivery from $60 and free returns</a>
+      <button class="offer__btn btn-reset"></button>
+      </div>
+      
+      <header class="header catalog-header">
+         <div class="container container-narrow">
+            
+            <div class="header__wrapper">
+
+               <nav class="nav header__nav">
+                  <ul class="nav__list catalog-nav__list">
+                     <li class="nav__item catalog-item">
+                        <a href="#" class="main__link nav__link">Home</a>
+                     </li>
+                     <li class="nav__item catalog-item">
+                        <a href="#" class="main__link">Shop</a>
+                     </li>
+                     <li class="nav__item catalog-item">
+                        <a href="#" class="main__link main__link--current">Elements</a>
+                     </li>
+                     <li class="nav__item catalog-item">
+                        <a href="#" class="main__link">Blog</a>
+                     </li>
+                     <li class="nav__item catalog-item">
+                        <a href="#" class="main__link">Page</a>
+                     </li>
+                  </ul>
+               </nav>
+
+               <a class="logo"><img src="img/logo.png" alt=""></a>
+
+               <ul class="shop header__shop catalog-shop">
+                  <li class="shop__item">
+                     <form action="#" class="shop__form">
+                        <button class="shop__form-btn btn-reset"></button>
+                     </form>
+                  </li>
+                  <li class="shop__item">
+                     <a class="shop__item-link shop-link--user" href="#"></a>
+                  </li>
+                  <li class="shop__item">
+                     <a class="shop__item-link card" href="#">
+                        <span class="card__icon"></span>
+                        <span class="card__quantity quantity">3</span>
+                     </a>
+                  </li>
+               </ul>
+
+            </div>
+
+         </div>
+      </header>
+
+      <div class="hero-catalog">
+         <div class="container container-narrow">
+            <div class="hero-catalog__wrapper">
+               <h2 class="hero-catalog__title">The best thing about going back to school?</h2>
+               <p class="hero-catalog__descr">This fall denim is king! Denim is officially back in and cool to wear in
+                  all its many forms</p>
+               <div class="hero-catalog__links">
+                  <a class="hero-catalog__link hero-catalog__link--1" href="#">Discovery</a>
+                  <a class="hero-catalog__link hero-catalog__link--2" href="#">Shop now</a>
+               </div>
+               <img class="hero-catalog__image" src="img/human-2.png" alt="">
+            </div>
+         </div>
+      </div>
+
+      <section class="catalog">
+         <div class="container container-narrow">
+            <div class="catalog__breadcrumbs">
+               <ul class="breadcrumbs__list">
+                  <li class="breadcrumbs__item">
+                     <a class="breadcrumbs__link" href="#">Home</a>
+                  </li>
+                  <li class="breadcrumbs__item">
+                     <a class="breadcrumbs__link" href="#">Shop</a>
+                  </li>
+                  <li class="breadcrumbs__item">
+                     <a class="breadcrumbs__link breadcrumbs__link--current" href="#">New Arrvals</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="catalog__content">
+               <div class="catalog__filters">
+                  <button class="hide-filters btn-reset">Hide filters</button>
+
+                  <div class="catalog-filter">
+                     <div class="catalog-filter__top">
+                        <div class="catalog-filter__caption">
+                           <h4 class="catalog-filter__title">Categories</h4>
+                           <span class="catalog__quantity quantity">1</span>
+                        </div>
+                        <span class="catalog-filter__toggle"></span>
+                     </div>
+                     <div class="catalog-filter__bottom">
+                        <ul class="catalog-filter__items">
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">All categories</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Accessories</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Dresses</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Coats</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Clothes</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">T-Shirt</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Summer</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Shirts</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Jacket</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Short</span>
+                              </label>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="catalog-filter">
+                     <div class="catalog-filter__top">
+                        <div class="catalog-filter__caption">
+                           <h4 class="catalog-filter__title">Size</h4>
+                           <button class="catalog-filter__btn-clear btn-reset">Clear</button>
+                        </div>
+                        <span class="catalog-filter__toggle"></span>
+                     </div>
+                     <div class="catalog-filter__bottom catalog-filter__bottom--close">
+                        <ul class="catalog-filter__items">
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">All categories</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Accessories</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Dresses</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Coats</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Clothes</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">T-Shirt</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Summer</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Shirts</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Jacket</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Short</span>
+                              </label>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="catalog-filter">
+                     <div class="catalog-filter__top">
+                        <div class="catalog-filter__caption">
+                           <h4 class="catalog-filter__title">Color</h4>
+                           <span class="catalog__quantity quantity">3</span>
+                        </div>
+                        <span class="catalog-filter__toggle"></span>
+                     </div>
+                     <div class="catalog-filter__bottom  catalog-filter__bottom--close">
+                        <ul class="catalog-filter__items">
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">All categories</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Accessories</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Dresses</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Coats</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Clothes</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">T-Shirt</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Summer</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Shirts</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Jacket</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Short</span>
+                              </label>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="catalog-filter">
+                     <div class="catalog-filter__top">
+                        <div class="catalog-filter__caption">
+                           <h4 class="catalog-filter__title">Color</h4>
+                           <span class="catalog__quantity quantity">3</span>
+                        </div>
+                        <span class="catalog-filter__toggle"></span>
+                     </div>
+                     <div class="catalog-filter__bottom  catalog-filter__bottom--close">
+                        <ul class="catalog-filter__items">
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">All categories</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Accessories</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Dresses</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Coats</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Clothes</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">T-Shirt</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Summer</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Shirts</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Jacket</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Short</span>
+                              </label>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="catalog-filter">
+                     <div class="catalog-filter__top">
+                        <div class="catalog-filter__caption">
+                           <h4 class="catalog-filter__title">Color</h4>
+                           <span class="catalog__quantity quantity">3</span>
+                        </div>
+                        <span class="catalog-filter__toggle"></span>
+                     </div>
+                     <div class="catalog-filter__bottom  catalog-filter__bottom--close">
+                        <ul class="catalog-filter__items">
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">All categories</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Accessories</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Dresses</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Coats</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Clothes</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">T-Shirt</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Summer</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Shirts</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Jacket</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Short</span>
+                              </label>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="catalog-filter">
+                     <div class="catalog-filter__top">
+                        <div class="catalog-filter__caption">
+                           <h4 class="catalog-filter__title">Color</h4>
+                           <span class="catalog__quantity quantity">3</span>
+                        </div>
+                        <span class="catalog-filter__toggle"></span>
+                     </div>
+                     <div class="catalog-filter__bottom  catalog-filter__bottom--close">
+                        <ul class="catalog-filter__items">
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">All categories</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Accessories</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Dresses</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Coats</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Clothes</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">T-Shirt</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Summer</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Shirts</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Jacket</span>
+                              </label>
+                           </li>
+                           <li class="catalog-filter__item">
+                              <label class="custom-checkbox">
+                                 <input class="custom-checkbox__input" type="checkbox"><span
+                                    class="custom-checkbox__text">Short</span>
+                              </label>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="catalog-grid">
+                  <div class="catalog-grid__info catalog-info">
+                     <div class="catalog-info__top">
+                        <div class="catalog-info__columns">
+                           <span class="catalog-info__text">Column Number:</span>
+                           <ul class="catalog-info__list">
+                              <li class="catalog-info__item">
+                                 <button class="catalog-info__btn main__link btn-reset">3</button>
+                              </li>
+                              <li class="catalog-info__item">
+                                 <button
+                                    class="catalog-info__btn catalog-info__btn--current main__link main__link--current  btn-reset">4</button>
+                              </li>
+                              <li class="catalog-info__item">
+                                 <button class="catalog-info__btn main__link btn-reset">5</button>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="catalog-info__chosen">
+                           <button class="catalog-bottom__btn btn-reset">Accessorie</button>
+                           <button class="catalog-bottom__btn btn-reset">28</button>
+                           <button class="catalog-bottom__btn btn-reset">medium</button>
+                           <button class="catalog-bottom__btn btn-reset">60% - 70% Off</button>
+                           <button class="catalog-bottom__clear btn-reset">Clear all</button>
+                        </div>
+                     </div>
+
+                     <ul class="grid catalog-grid__content">
+                        <li class="catalog-bottom__item">
+                           <article class="product-grid__article">
+                              <a href=""><img src="img/224x282.jpg" alt=""
+                                    class="product-grid__image product-grid__image--margin "></a>
+                              <div class="product-grid__merit product-grid__merit--1">New</div>
+                              <div class="product-grid__name">Eye Mesh Boat Shoes</div>
+                              <div class="product-grid__price">$220.00</div>
+                              <button class="product-grid__btn btn-reset"></button>
+                           </article>
+                        </li>
+                        <li class="catalog-bottom__item">
+                           <article class="product-grid__article">
+                              <a href=""><img src="img/224x282.jpg" alt=""
+                                    class="product-grid__image product-grid__image--margin "></a>
+                              <div class="product-grid__merit product-grid__merit--1">New</div>
+                              <div class="product-grid__name">Eye Mesh Boat Shoes</div>
+                              <div class="product-grid__price">$220.00</div>
+                              <button class="product-grid__btn btn-reset"></button>
+                           </article>
+                        </li>
+                        <li class="catalog-bottom__item">
+                           <article class="product-grid__article">
+                              <a href=""><img src="img/224x282.jpg" alt=""
+                                    class="product-grid__image product-grid__image--margin "></a>
+                              <div class="product-grid__merit product-grid__merit--1">New</div>
+                              <div class="product-grid__name">Eye Mesh Boat Shoes</div>
+                              <div class="product-grid__price">$220.00</div>
+                              <button class="product-grid__btn btn-reset"></button>
+                           </article>
+                        </li>
+                        <li class="catalog-bottom__item">
+                           <article class="product-grid__article">
+                              <a href=""><img src="img/224x282.jpg" alt=""
+                                    class="product-grid__image product-grid__image--margin "></a>
+                              <div class="product-grid__merit product-grid__merit--1">New</div>
+                              <div class="product-grid__name">Eye Mesh Boat Shoes</div>
+                              <div class="product-grid__price">$220.00</div>
+                              <button class="product-grid__btn btn-reset"></button>
+                           </article>
+                        </li>
+                        <li class="catalog-bottom__item">
+                           <article class="product-grid__article">
+                              <a href=""><img src="img/224x282.jpg" alt=""
+                                    class="product-grid__image product-grid__image--margin "></a>
+                              <div class="product-grid__merit product-grid__merit--1">New</div>
+                              <div class="product-grid__name">Eye Mesh Boat Shoes</div>
+                              <div class="product-grid__price">$220.00</div>
+                              <button class="product-grid__btn btn-reset"></button>
+                           </article>
+                        </li>
+                        <li class="catalog-bottom__item">
+                           <article class="product-grid__article">
+                              <a href=""><img src="img/224x282.jpg" alt=""
+                                    class="product-grid__image product-grid__image--margin "></a>
+                              <div class="product-grid__merit product-grid__merit--1">New</div>
+                              <div class="product-grid__name">Eye Mesh Boat Shoes</div>
+                              <div class="product-grid__price">$220.00</div>
+                              <button class="product-grid__btn btn-reset"></button>
+                           </article>
+                        </li>
+                        <li class="catalog-bottom__item">
+                           <article class="product-grid__article">
+                              <a href=""><img src="img/224x282.jpg" alt=""
+                                    class="product-grid__image product-grid__image--margin "></a>
+                              <div class="product-grid__merit product-grid__merit--1">New</div>
+                              <div class="product-grid__name">Eye Mesh Boat Shoes</div>
+                              <div class="product-grid__price">$220.00</div>
+                              <button class="product-grid__btn btn-reset"></button>
+                           </article>
+                        </li>
+                        <li class="catalog-bottom__item">
+                           <article class="product-grid__article">
+                              <a href=""><img src="img/224x282.jpg" alt=""
+                                    class="product-grid__image product-grid__image--margin "></a>
+                              <div class="product-grid__merit product-grid__merit--1">New</div>
+                              <div class="product-grid__name">Eye Mesh Boat Shoes</div>
+                              <div class="product-grid__price">$220.00</div>
+                              <button class="product-grid__btn btn-reset"></button>
+                           </article>
+                        </li>
+                        <li class="catalog-bottom__item">
+                           <article class="product-grid__article">
+                              <a href=""><img src="img/224x282.jpg" alt=""
+                                    class="product-grid__image product-grid__image--margin "></a>
+                              <div class="product-grid__merit product-grid__merit--1">New</div>
+                              <div class="product-grid__name">Eye Mesh Boat Shoes</div>
+                              <div class="product-grid__price">$220.00</div>
+                              <button class="product-grid__btn btn-reset"></button>
+                           </article>
+                        </li>
+                        <li class="catalog-bottom__item">
+                           <article class="product-grid__article">
+                              <a href=""><img src="img/224x282.jpg" alt=""
+                                    class="product-grid__image product-grid__image--margin "></a>
+                              <div class="product-grid__merit product-grid__merit--1">New</div>
+                              <div class="product-grid__name">Eye Mesh Boat Shoes</div>
+                              <div class="product-grid__price">$220.00</div>
+                              <button class="product-grid__btn btn-reset"></button>
+                           </article>
+                        </li>
+                        <li class="catalog-bottom__item">
+                           <article class="product-grid__article">
+                              <a href=""><img src="img/224x282.jpg" alt=""
+                                    class="product-grid__image product-grid__image--margin"></a>
+                              <div class="product-grid__merit product-grid__merit--1">New</div>
+                              <div class="product-grid__name">Eye Mesh Boat Shoes</div>
+                              <div class="product-grid__price">$220.00</div>
+                              <button class="product-grid__btn btn-reset"></button>
+                           </article>
+                        </li>
+                        <li class="catalog-bottom__item">
+                           <article class="product-grid__article">
+                              <a href=""><img src="img/224x282.jpg" alt=""
+                                    class="product-grid__image product-grid__image--margin"></a>
+                              <div class="product-grid__merit product-grid__merit--1">New</div>
+                              <div class="product-grid__name">Eye Mesh Boat Shoes</div>
+                              <div class="product-grid__price">$220.00</div>
+                              <button class="product-grid__btn btn-reset"></button>
+                           </article>
+                        </li>
+                     </ul>
+                     
+
+                     <div class="catalog-box__btns">
+                        <div class="catalog-box__center">
+                           <button class="catalog-box__btn btn-reset">1</button>
+                           <button class="catalog-box__btn btn-reset">2</button>
+                           <button class="catalog-box__btn btn-reset">3</button>
+                           <button class="catalog-box__btn btn-reset">Next</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__block">
+               <div class="footer__info">
+                  <ul class="footer__social-list">
+                     <li class="footer__social-item">
+                        <a class="footer__social-link" href="#"><img src="img/icon-twitter.png" alt=""
+                              class="footer__social-list"></a>
+                     </li>
+                     <li class="footer__social-item">
+                        <a class="footer__social-link" href="#"><img src="img/icon-facebook.png" alt=""
+                              class="footer__social-list"></a>
+                     </li>
+                     <li class="footer__social-item">
+                        <a class="footer__social-link" href="#"><img src="img/icon-instagram.png" alt=""
+                              class="footer__social-list"></a>
+                     </li>
+                     <li class="footer__social-item">
+                        <a class="footer__social-link" href="#"><img src="img/icon-pinterest.png" alt=""
+                              class="footer__social-list"></a>
+                     </li>
+                  </ul>
+                  <ul class="footer__info-list">
+                     <li class="footer__info-item">
+                        <a class="footer__social-link" href="#">Returns Policy</a>
+                     </li>
+                     <li class="footer__info-item">
+                        <a class="footer__social-link" href="#">Privacy Policy</a>
+                     </li>
+                     <li class="footer__info-item">
+                        <a class="footer__social-link" href="#">Privacy Policy</a>
+                     </li>
+                  </ul>
+
+                  <div class="footer__select">
+                     <button class="footer__select-btn btn-reset"><span>Currency</span>Usd</button>
+                     <button class="footer__select-btn btn-reset"><span>Language</span>English</button>
+                  </div>
+
+               </div>
+               <div class="footer__support">
+                  <div class="footer__support-copyright">© Apple Inc.,2021г. Все права защищены.
+                  </div>
+                  <div class="footer__support-bank">
+                     <ul class="footer-bank__list">
+                        <li class="footer-bank__item"><a class="footer-bank__link" href="#">mastercard</a></li>
+                        <li class="footer-bank__item"><a class="footer-bank__link" href="#">VISA</a></li>
+                        <li class="footer-bank__item"><a class="footer-bank__link" href="#">PayPal</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+   </div>
+</body>
+
+</html>

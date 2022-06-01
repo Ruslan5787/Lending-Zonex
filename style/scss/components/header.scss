@@ -1,0 +1,146 @@
+.header {
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 100%;
+   z-index: 100;
+   &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 36px;
+   }
+   &-wrapper__product {
+      padding-top: 0;
+   }
+   &__shop {
+      margin-left: 200px;
+   }
+}
+
+.nav {
+   font-size: 15px;
+   &__list {
+      display: flex;
+      margin-left: 28px;
+   }
+   &__item + &__item {
+      margin-left: 30px;
+   }
+}
+.main__link {
+   position: relative;
+
+   &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -9px;
+      width: 100%;
+      opacity: 0;
+      height: 2px;
+      transition: opacity 0.3s;
+      background-color: currentColor;
+   }
+   &:hover {
+      &::after {
+         opacity: 1;
+         color: var(--color-dark);
+
+      }
+   }
+   &--current {
+      &::after {
+         opacity: 1;
+         transition: opacity 0.3s;
+         color: var(--color-dark)
+
+
+      }
+   }
+   &--white {
+      color: var(--color-white);
+   }
+}
+
+.shop {
+   display: flex;
+
+   &__form {
+      &-btn {
+         display: inline-block;
+         width: 18px;
+         height: 16px;
+         background-position: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-image: url(../../../img/icon-search.png);
+      }
+   }
+
+   &__item {
+      margin-left: 25px;
+      &-link {
+         display: inline-block;
+         width: 16px;
+         height: 16px;
+         background-position: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+      }
+   }
+   &-link--user {
+      background-image: url(../../../img/user.png);
+   }
+}
+.card {
+   height: auto;
+   width: auto;
+   &__icon {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url(../../../img/bag.png);
+   }
+}
+
+.catalog {
+   &-header {
+      padding-top: 36px;
+   }
+   &-nav__list {
+      margin-left: 0;
+   }
+   &-item + &-item {
+      margin-left: 45px;
+   }
+   &-shop {
+      margin-left: 230px;
+   }  
+}
+.offer {
+   font-size: 13px;
+   padding: 13px 0;
+   text-align: center;
+   color: var(--color-white);
+   background-color: var(--color-dark);
+   position: relative;
+   &__btn {
+      background-image: url(../../../img/icon-close-ellips.png);
+      background-repeat: no-repeat;
+      width: 17px;
+      height: 17px;
+      position: absolute;
+      right: 38px;
+      top: 11px;
+   }
+}
+
+@media (max-width: 400px) {
+   .offer__btn {
+      right: 8px;
+   }
+}

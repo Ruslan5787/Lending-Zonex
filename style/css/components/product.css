@@ -1,0 +1,131 @@
+.product {
+   margin-bottom: 45px;
+}
+.product__link {
+   transition: color 0.3s;
+}
+.product__link:hover {
+   color: var(--color-dark);
+}
+.product__list {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 42px;
+}
+.product__item {
+   font-size: 24px;
+}
+.product__item + .product__item {
+   margin-left: 36px;
+}
+
+.grid {
+   display: grid;
+}
+
+.product-grid {
+   grid-template-columns: repeat(5, 1fr);
+   grid-gap: 50px 30px;
+}
+.product-grid__item {
+   position: relative;
+}
+.product-grid__item:hover .product-grid__btn {
+   opacity: 1;
+}
+.product-grid__image {
+   object-fit: cover;
+   max-height: 100%;
+   margin-bottom: 21px;
+}
+.product-grid__merit {
+   margin-bottom: 23px;
+   position: relative;
+   font-weight: 700;
+   font-size: 12px;
+   margin-bottom: 13px;
+   padding-left: 18px;
+   background-repeat: no-repeat;
+   text-transform: uppercase;
+}
+.product-grid__merit::before {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 20px;
+   height: 20px;
+   background-image: url(../../../img/merit-1.png);
+   background-repeat: no-repeat;
+   width: 11px;
+   height: 13px;
+}
+.product-grid__name {
+   font-size: 13px;
+   color: var(--color-tundora);
+   margin-bottom: 10px;
+   margin-bottom: 20px;
+}
+.product-grid__price {
+   font-weight: 700;
+   font-size: 13px;
+   margin-top: 10px;
+}
+.product-grid__price span {
+   color: var(--color-grey);
+   text-decoration: line-through;
+   padding-left: 20px;
+}
+.product-grid__btn {
+   position: absolute;
+   background-image: url(../../../img/icon-search.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 16px;
+   height: 14px;
+   right: 30px;
+   bottom: 25px;
+   opacity: 0;
+   transition: opacity 0.3s;
+}
+
+@media (max-width: 800px) {
+   .product__item {
+      font-size: 20px;
+   }
+   .product-grid {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px 20px;
+   }
+}
+@media (max-width: 650px) {
+   .product-grid__image {
+      margin-bottom: 8px;
+   }
+   .product-grid__merit {
+      margin-bottom: 8px;
+   }
+   .product-grid__name {
+      margin-bottom: 10px; 
+   }
+
+   .product-grid {
+      grid-gap: 20px 20px;
+   }
+}
+
+@media (max-width: 500px) {
+   .product__item {
+      font-size: 16px;
+   }
+   .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 15px 10px;
+   }
+}
+@media (max-width: 400px) {
+   .product__item {
+      font-size: 12px;
+   }
+}
